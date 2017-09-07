@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SomeComponent renders 1`] = `
+<p
+  dangerouslySetInnerHTML="<p>Some Html</p>
+"
+/>
+`;
