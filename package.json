@@ -25,8 +25,8 @@
   },
   "jest": {
     "transform": {
-			".(ts|tsx)": "./node_modules/ts-jest/preprocessor.js",
-      "^(.*\\.html)$": "./transformer.js"
+      "^.+\\.(ts|tsx)$": "./node_modules/ts-jest/preprocessor.js",
+      "^(.+\\.html)$": "./transformer.js"
     },
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
     "moduleFileExtensions": [
